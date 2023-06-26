@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+:root{
+    --cor-primaria: #64C8F0;
+    --cor-secundaria: #FA6450;
+    --cor-terciaria: #FAB401;
+    --cor-quaternaria: #F0F0F0;
+    --cor-quinternaria: #505050;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.cabecalho{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-quinternaria);
+}
+.cabecalho__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho__menu__imagem{
+    height: 40%;
+    width: 15%;
+}
+.apresentacao{
+    height: 80%;
+    background-color: var(--cor-quinternaria);
+    display: flex;
+}
+.apresentacao__section__um{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+}
+.input{
+    width: 70%;
+    height: 12%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    text-align: center;
+    background-color: var(--cor-quaternaria);
+    border: 0.7px solid var(--cor-quinternaria);
+    border-radius: 15px;
+}
+.botao{
+    width: 40%;
+    height: 12%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    text-align: center;
+    background-color: var(--cor-secundaria);
+    border: 0.7px solid var(--cor-quinternaria);
+    border-radius: 15px;
+}
+.apresentacao__section__dois{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apresentacao__section__dois__div{
+    height: 80%;
+    width: 80%;
+    background-color: var(--cor-quaternaria);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;  
+}
+.rodape{
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-secundaria);
+}
+.rodape__titulo{
+    color: black;
+    font-family: 'Dancing Script', cursive;
+}
+.botao:hover{
+    background-color: var(--cor-primaria);
+    transition: 1s;
+    font-size: 20px;
+}
